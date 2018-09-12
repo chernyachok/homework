@@ -1,1 +1,1 @@
-check img/example.png file
+check js/main1.js file
