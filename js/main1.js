@@ -8,6 +8,7 @@ $(document).ready(function(){
           const urls = []
           $.each(data, (index, item)=>{
             urls.push(item.name);
+              if(index==3)return false
           })
           resolve(urls);
         })
